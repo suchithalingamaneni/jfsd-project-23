@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    text-align: right;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+
+
+  /* src/App.css */
+
+/* src/styles/App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* Set a default font */
+  background-image: url('../assets/about.jpg'); /* Updated path to your image */
+  background-size: cover; /* Cover the entire viewport */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent tiling of the image */
+  height: 500vh; /* Full height of the viewport */
+}
+.product-card {
+  border: 1px solid #ccc; /* Border around the card */
+  border-radius: 5px; /* Rounded corners */
+  padding: 16px; /* Padding inside the card */
+  text-align: center; /* Center text */
+  margin: 16px; /* Margin around the card */
+  width: 200px; /* Set a fixed width for the card */
+  height: 500px; /* Set a fixed height for the card */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  display: flex; /* Use flexbox to center content */
+  flex-direction: column; /* Stack children vertically */
+  justify-content: space-between; /* Space out children */
+}
+
+.product-image {
+  width: 100%; /* Make sure image fits within the card */
+  height: 150px; /* Set a fixed height for the image */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+  border-radius: 5px; /* Optional: rounded corners for images */
+}
+
+.product-card h3 {
+  font-size: 1.5em; /* Change the heading size */
+  margin: 10px 0; /* Adjust margin if needed */
+}
+
+.product-card p {
+  font-size: 1.2em; /* Change the paragraph size */
+  margin: 5px 0; /* Adjust margin if needed */
+}
+
+.product-card button {
+  font-size: 1em; /* Change the button text size */
+}
